@@ -1,0 +1,85 @@
+    
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+   
+// Reset
+*::after,
+*::before,
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+    // Colors
+    $primary-1:  black;
+    $primary-2: white;
+    $alternative-1: #20c997;
+    $alternative-2: rgba(248,249,250); 
+    $alternative-3: #dee2e6;
+    $text-color: #2B2B2B;
+    $shadow:#0000001c;
+    $hover-botones:aqua;
+    $footer: rgb(61, 59, 59);
+
+    // Font size
+    $text-large: 3rem;
+    $text-medium: 2.5rem;
+    $text-small: 2rem;
+    $text-xsmall: 1.8rem;
+
+    // Spacing
+    $spacing-xxlarge: 10rem;
+    $spacing-xlarge: 8rem;
+    $spacing-large-2:7rem;
+    $spacing-large: 6rem;
+    $spacing-medium: 3.5rem;
+    $spacing-small: 2rem;
+    $spacing-xsmall: 1rem;
+
+
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body{
+    color: $text-color;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: $text-large;
+    color: $primary-1;
+
+}
+    
+h1,h2,h3{
+    text-transform: uppercase;
+
+}
+
+    
+h2{
+    font-size: $text-medium;
+}
+
+h3{
+    font-size: $text-small;
+}
+    
+
+p {
+    font-size: $text-xsmall;
+    line-height: $text-small
+}

@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
+*::after,
+*::before,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  color: #2B2B2B;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+  color: black;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+.navBar {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  padding: 1rem;
+  top: 0;
+}
+.navBar ul {
+  display: flex;
+}
+.navBar ul li {
+  font-size: 2rem;
+  margin: 1rem;
+}
+.navBar ul li a {
+  color: black;
+  text-decoration: none;
+  margin: 2rem;
+}
+.navBar ul li a:hover {
+  color: #20c997;
+}
+
+.encabezado {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background-color: #20c997;
+  display: flex;
+}
+.encabezado img {
+  margin-top: 8rem;
+  margin-right: 2rem;
+}
+.encabezado .contenido {
+  padding: 3.5rem;
+  margin: auto;
+  text-align: justify;
+}
+.encabezado .contenido p {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.cuerpo {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.cuerpo .analytics {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.cuerpo .analytics img {
+  margin-left: 10%;
+}
+.cuerpo .analytics .cAnalytics {
+  margin: auto;
+  padding: 10rem;
+  text-align: justify;
+  line-height: 6rem;
+  padding: 6rem;
+  margin-left: 5%;
+}
+.cuerpo .analytics .cAnalytics p {
+  margin-top: 2rem;
+}
+.cuerpo .registro {
+  background-color: #dee2e6;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+.cuerpo .registro img {
+  padding-right: 10rem;
+}
+.cuerpo .registro .ctaRegistro {
+  margin: auto;
+  text-align: center;
+  line-height: 8rem;
+}
+.cuerpo .registro .ctaRegistro input {
+  border: none;
+  outline: none;
+  background-color: #20c997;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 10rem;
+  color: white;
+  font-size: 1.8rem;
+}
+.cuerpo .registro .ctaRegistro input:hover {
+  background-color: aqua;
+}
+
+.pie {
+  width: 100%;
+  height: auto;
+  background-color: rgb(61, 59, 59);
+  color: white;
+  margin: auto;
+}
+.pie .grupo-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pie .grupo-1 img {
+  margin: auto;
+}
+.pie .grupo-1 .politicas {
+  line-height: 3.5rem;
+  margin-top: 2rem;
+}
+.pie .grupo-1 .politicas p {
+  line-height: 3.5rem;
+}
+.pie .grupo-1 .politicas p a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+.pie .grupo-1 .politicas p a:hover {
+  color: #20c997;
+}
+.pie .grupo-1 .siguenos {
+  margin-top: 2rem;
+}
+.pie .grupo-1 .siguenos a {
+  text-decoration: none;
+  font-size: 2rem;
+  width: 3.5rem;
+  line-height: 6rem;
+  margin-right: 2rem;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.pie .grupo-1 .siguenos a:hover {
+  transform: scale(1.2);
+  color: aqua;
+}
+.pie .grupo-2 {
+  font-size: 1.8rem;
+  text-align: right;
+  padding: 1rem;
+}
+
+@media (max-width: 1240px) {
+  .navBar {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  .navBar ul {
+    flex-direction: row;
+    text-align: center;
+  }
+  .navBar ul a {
+    margin: auto;
+  }
+  .encabezado {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    text-align: center;
+  }
+  .encabezado img {
+    width: 70%;
+  }
+  .encabezado .contenido {
+    text-align: center;
+    margin-top: 7rem;
+  }
+  .encabezado .contenido p {
+    text-align: justify;
+  }
+  .analytics {
+    flex-direction: column;
+    align-items: center;
+  }
+  .analytics .cAnalytics {
+    margin: auto;
+    text-align: center;
+  }
+  .analytics .cAnalytics p {
+    text-align: justify;
+  }
+  .analytics img {
+    width: 80%;
+    margin-right: 10%;
+  }
+  .registro {
+    flex-direction: column;
+    align-items: center;
+  }
+  .registro img {
+    padding-left: 10rem;
+    width: 80%;
+  }
+  .registro .ctaRegistro {
+    text-align: center;
+  }
+}

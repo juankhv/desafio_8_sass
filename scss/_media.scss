@@ -1,0 +1,76 @@
+@media (max-width:1240px){
+
+    .navBar{
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        ul{
+           flex-direction: row;
+           text-align: center;
+           a{
+            margin: auto;
+
+           }
+
+        }
+        
+    }
+
+    .encabezado{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+        img{
+            width: 70%;
+        }
+        .contenido{
+            text-align: center;
+            margin-top: $spacing-large-2;
+            p{
+              text-align: justify;
+
+            }
+            
+        }
+
+
+    }
+
+    .analytics{
+        flex-direction: column;
+        align-items: center;
+    
+        .cAnalytics{
+            margin:auto;
+            text-align: center;
+            p{
+              text-align: justify;
+
+            }
+            
+        }
+        img{
+            width: 80%;
+            margin-right: 10%;
+        }
+        
+        
+    }
+
+    .registro{
+        flex-direction: column;
+        align-items: center;
+        img{
+            padding-left: $spacing-xxlarge;
+            width: 80%;
+        }
+        .ctaRegistro{
+            text-align: center;
+        }
+    
+    }
+
+
+}
+

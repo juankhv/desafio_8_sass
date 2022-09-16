@@ -1,0 +1,179 @@
+// Inicia Nav
+
+.navBar{
+    width: 100%;
+    height: auto;
+    background-color: $primary-2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    padding: $spacing-xsmall;
+    top: 0;
+    ul{
+       display: flex;
+       li{
+           font-size: $text-small;
+           margin: $spacing-xsmall;
+           a{
+             color: $primary-1;
+             text-decoration: none;
+             margin: $spacing-small;
+             &:hover{
+                   color: $alternative-1;
+
+                }
+            }
+
+        }
+
+    }
+
+
+}
+
+// Inicia Header
+
+.encabezado{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: $alternative-1;
+    display: flex;
+    img{
+        margin-top: $spacing-xlarge;
+        margin-right: $spacing-small;
+
+    }
+    .contenido{
+        padding: $spacing-medium;
+        margin: auto;
+        text-align: justify;
+        p{
+            font-size: $text-small;
+            margin-top: $spacing-small;
+        }
+
+
+    }
+
+
+}
+
+// inicia Main
+
+.cuerpo{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    .analytics{
+        background-color: $primary-2;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        img{
+            margin-left: 10%;
+        }
+        .cAnalytics{
+            margin: auto;
+            padding: $spacing-xxlarge;
+            text-align: justify;
+            line-height: $spacing-large;
+            padding: $spacing-large;
+            margin-left: 5%;
+            p{
+                margin-top: $spacing-small;
+            }
+        
+        }
+    
+    }
+    .registro{
+        background-color: $alternative-3;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        img{
+            padding-right: $spacing-xxlarge
+        }
+        .ctaRegistro{
+            margin: auto;
+            text-align: center;
+            line-height: $spacing-xlarge;
+            input{
+                border: none;
+                outline: none;
+                background-color: $alternative-1;
+                border-radius: $spacing-small;
+                padding: $spacing-xsmall;
+                width: $spacing-xxlarge;
+                color: $primary-2;
+                font-size: $text-xsmall;
+                &:hover{
+                    background-color: $hover-botones;
+                }
+            }
+        }
+    }
+
+}
+
+// Inicia Footer
+
+.pie{
+    width: 100%;
+    height: auto;
+    background-color: $footer;
+    color: $primary-2;
+    margin: auto;
+    .grupo-1{
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        img{
+            margin:auto;
+        }
+        .politicas{
+            line-height: $spacing-medium;
+            margin-top: $spacing-small;
+            p{
+              line-height: $spacing-medium;
+              a{
+                color: $primary-2;
+                text-decoration: none;
+                font-size: $text-xsmall;
+                &:hover{
+                    color: $alternative-1;
+                }
+              }
+            }
+        }
+        .siguenos{
+            margin-top: $spacing-small;
+            a{
+                text-decoration: none;
+                font-size: $text-small;
+                width: $spacing-medium;
+                line-height: $spacing-large;
+                margin-right: $spacing-small;
+                color: $primary-2;
+                transition: all .4s ease-in-out;
+                &:hover{
+                    transform: scale(1.2);
+                    color: $hover-botones;
+                }
+            }
+        }
+    }
+    .grupo-2{
+        font-size: $text-xsmall;
+        text-align: right;
+        padding: $spacing-xsmall;
+    }
+   
+}
+
+
